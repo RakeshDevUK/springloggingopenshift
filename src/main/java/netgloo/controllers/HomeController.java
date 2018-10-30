@@ -12,7 +12,7 @@ public class HomeController {
   // Define the log object for this class
   private final Logger log = LoggerFactory.getLogger(this.getClass());
 
-  @RequestMapping("/")
+  @RequestMapping("hello")
   @ResponseBody
   public String index() {
     System.out.println("Test");
