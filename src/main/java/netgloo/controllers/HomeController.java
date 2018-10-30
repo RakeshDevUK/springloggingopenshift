@@ -15,7 +15,7 @@ public class HomeController {
   @RequestMapping("/")
   @ResponseBody
   public String index() {
-    
+    System.out.println("Test");
     // Log a simple message
     log.debug("debug level log");
     log.info("info level log");
